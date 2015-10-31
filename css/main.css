@@ -1,22 +1,83 @@
+/*Title Section*/
+.title{
+	text-align: center;
+	font-family: 'Arvo', serif;
+	color:#FF69B4;
+}
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/*Questions*/
+
+.btn{
+	background-color: #FFEFD5;
+}
+
+.questions h3{
+	#FF00FF
+}
+
+.first-question-ada{
+	text-align: center;
+}
+
+.first-question-ada h3{
+	color: #4B0082;
+	font-family: 'Arvo', serif;
+}
+
+.second-question{
+	text-align: center;
+}
+
+.second-question h3{
+
+
+}
+
+
+.third-question{
+	text-align: center;
+}
+
+
+.third-question h3{
+
+
+}
 
 
 
+.fourth-question{
+	text-align: center;
+}
+
+.fifth-question{
+	text-align: center;
+}
 
 
+/*Where is Find More Information about Grace*/
 
+.find-out-more{
+	margin-top: 5em;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	margin-bottom: 5em;
+}
 
+.find-out-more h3{
+	color:#FF69B4;
+}
 
+.find-out-more li{
+	font-size: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	color:#FF7F50;
 
+}
 
-
-
-
-
-
-
+.find-out-more a{
+	color:#FF7F50;
+}
 
