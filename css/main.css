@@ -30,7 +30,8 @@
 }
 
 .second-question h3{
-
+	color: #4B0082;
+	font-family: 'Arvo', serif;
 
 }
 
@@ -41,7 +42,8 @@
 
 
 .third-question h3{
-
+	color: #4B0082;
+	font-family: 'Arvo', serif;
 
 }
 
@@ -51,10 +53,29 @@
 	text-align: center;
 }
 
+.fourth-question h3{
+	color: #4B0082;
+	font-family: 'Arvo', serif;
+}
+
+
 .fifth-question{
 	text-align: center;
 }
 
+
+.fifth-question h3{
+	color: #4B0082;
+	font-family: 'Arvo', serif;
+}
+
+.fifth-true{
+	text-align: center;
+}
+
+.fifth-false{
+	text-align: center;
+}
 
 /*Where is Find More Information about Grace*/
 
