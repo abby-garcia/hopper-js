@@ -35,15 +35,15 @@
         <div class="ada-pic">
           <img src="img/ada.jpg">
           <br>
-          <button class="btn" type="submit">True</button>
-          <button class="btn" type="submit">False</button>
+          <button class="btn" type="submit" onclick="showAnswer('first-true')">True</button>
+          <button class="btn" type="submit" onclick="showAnswer('first-false')">False</button>
         </div>
 
-<div class="first-true">
+<div id="first-true">
     <p> False! She is Grace Hopper: <img  src="img/grace.jpg"> </p>
 </div> 
 
-<div class="first-false">
+<div id="first-false">
     <p> Correct! That is Ada Lovelace, not Grace Hopper! </p>
 </div> 
 
@@ -57,14 +57,14 @@
 <div class="second-question">
   <h3> Grace Hopper earned a PHD for Computer Science at Yale. </h3>
   <br>
-        <button class="btn" type="submit">True</button>
-        <button class="btn" type="submit">False</button>
+        <button class="btn" type="submit" onclick="showAnswer('second-true')">True</button>
+        <button class="btn" type="submit" onclick="showAnswer('second-false')">False</button>
 
-  <div class="second-true">
+  <div id="second-true">
     <p> Wrong! She earned her PHD in Math! </p>
   </div> 
 
-  <div class="second-false">
+  <div id="second-false">
     <p> Correct! </p>
   </div>   
 
@@ -74,14 +74,14 @@
 
 <div class="third-question">
   <h3> Grace Hopper once said: "It's easier to ask forgiveness than it is to get permission."</h3>
-   <button class="btn" type="submit">True</button>
-        <button class="btn" type="submit">False</button>
+   <button class="btn" type="submit" onclick="showAnswer('third-true')">True</button>
+        <button class="btn" type="submit" onclick="showAnswer('third-false')">False</button>
 
- <div class="third-true">
+ <div id="third-true">
     <p> Yes! You're right! </p>
   </div> 
 
-  <div class="third-false">
+  <div  id="third-false">
     <p> Nope... try again! </p>
   </div>   
 
@@ -89,14 +89,14 @@
 
 <div class="fourth-question">
   <h3> Grace popularized the term "debugging" after finding a beetle in a computer. </h3>
-        <button class="btn" type="submit">True</button>
-        <button class="btn" type="submit">False</button>
+        <button class="btn" type="submit" onclick="showAnswer('fourth-true')">True</button>
+        <button class="btn" type="submit" onclick="showAnswer('fourth-false')">False</button>
 
-  <div class="fourth-true">
+  <div id="fourth-true">
     <p> Fasle! She found a moth in the computer!  </p>
   </div> 
 
-  <div class="fourth-false">
+  <div id="fourth-false">
     <p> Yes! You're right! </p>
   </div>   
 
@@ -106,17 +106,18 @@
 
 
 <div class="fifth-question">
-  <h3> Grace Hopper has an academy names after her.</h3>
-        <button class="btn" type="submit">True</button>
-        <button class="btn" type="submit">False</button>
+  <h3> Grace Hopper has an academy named after her.</h3>
+        <button class="btn" type="submit" onclick="showAnswer('fifth-true')">True</button>
+        <button class="btn" type="submit" onclick="showAnswer('fifth-false')">False</button>
 
 </div>
 
- <div class="fifth-true">
+  <div id="fifth-true">
     <p> Yes! Check it out here: <a href="http://www.gracehopper.com/">Grace Hopper Academy </a></p>
-  </div> 
+  </div>   
+  
 
-  <div class="fifth-false">
+  <div id="fifth-false">
     <p> Wrong! She does have an academy! Check it out here: <a href="http://www.gracehopper.com/">Grace Hopper Academy </a> </p>
   </div>   
 
@@ -141,10 +142,9 @@
 
 
          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+      
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

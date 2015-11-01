@@ -16,8 +16,8 @@
 	color:#FF00FF
 }
 
-.first-true, .second-true, .third-true, .fourth-true, .fifth-true,
- .first-false, .second-false, .third-false, .fourth-false, .fifth-false
+#first-true, #second-true, #third-true, #fourth-true, #fifth-true,
+ #first-false, #second-false, #third-false, #fourth-false, #fifth-false
 
 {
 	display: none;
@@ -77,11 +77,11 @@
 	font-family: 'Arvo', serif;
 }
 
-.fifth-true{
+#fifth-true{
 	text-align: center;
 }
 
-.fifth-false{
+#fifth-false{
 	text-align: center;
 }
 
