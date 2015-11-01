@@ -13,8 +13,16 @@
 }
 
 .questions h3{
-	#FF00FF
+	color:#FF00FF
 }
+
+.first-true, .second-true, .third-true, .fourth-true, .fifth-true,
+ .first-false, .second-false, .third-false, .fourth-false, .fifth-false
+
+{
+	display: none;
+}
+
 
 .first-question-ada{
 	text-align: center;
